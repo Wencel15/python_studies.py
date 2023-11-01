@@ -32,3 +32,30 @@ formato = string.format(
     )
 
 print(formato)
+
+"""
+Formatação básica de strings
+s = string
+d - int
+f - float
+.<número de dígitos>f
+x ou X - Hexadecimal
+(Caractere)(><^)(quantidade)
+> - Esquerda
+< - Direita
+^ - Centro
+= - Força o npumero a aparecer antes dos zeros
+Sinal - ou +
+Ex.: 0>100,.1f
+Conversion flags - !r !s !a __repr__ - __str__ - __ask__
+"""
+
+variavel = 'ABC'
+print(f'{variavel}')
+print(f'{variavel: >10}') #Colocar caractere a esquerda
+print(f'{variavel: <10}') #Colocar caractere a direita
+print(f'{variavel: ^10}') #Colocar caractere aos lados
+print(f'{1000.4873648123746:.1f}')
+print(f'{1000.4873648123746:0=+10,.1f}')
+print('O hexadecimal de 1500 é {1500:08x}')
+print(f'{variavel!r}')
