@@ -38,6 +38,16 @@ Operadores de atribuição
 
 contador = 0 
 
-while contador < 10:
+while contador <= 100:
     contador += 1
-    print(contador)
+
+    if contador == 6: # não mostra o numero 6 mas continua contado
+        continue
+
+    if contador >= 10 and contador <= 27: # não mostra o intervalo de numeros mas continua contando.
+        continue
+
+    if contador == 40:
+        break
+
+print('Acabou')
