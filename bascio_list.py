@@ -64,5 +64,6 @@ nome = lista.pop()
 #print(lista, lista.pop())
 lista.append(1233)
 del lista[-1]
-lista.clear()
+#lista.clear()
+lista.insert(0, 5) # local da lista e depois o valor
 print(lista)
