@@ -83,3 +83,12 @@ lista_d = lista_a.extend(lista_b) # extend não retorna nada, retorna o valor no
 print(lista_d)
 
 print(lista_a) # extend retorna a lista b na a 
+
+"""
+for in com listas
+"""
+
+lista = ['Maria', 'Helena', 'Luiz']
+
+for nome in lista:
+    print(nome, type(nome))
