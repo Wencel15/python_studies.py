@@ -54,3 +54,15 @@ print(lista)
 ultimo_valor = lista.pop()
 ultimo_valor = lista.pop(2) # excluir um item expecifico 
 print(lista, 'Removido,', ultimo_valor)
+
+# Alguns exemplos
+
+lista = [10, 20, 30, 40]
+lista.append('Luciano')
+nome = lista.pop()
+#print(lista, nome)
+#print(lista, lista.pop())
+lista.append(1233)
+del lista[-1]
+lista.clear()
+print(lista)
