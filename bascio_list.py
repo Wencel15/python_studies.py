@@ -22,3 +22,16 @@ print(lista[2].upper(), type(lista[2]))
 
 #3
 print(lista)
+
+"""
+Create Read Update - Delete
+criar, ler, alterar, apagar = lista[i] (CURD)
+"""
+
+lista = [10, 20, 30, 40] # Criar
+#numero = lista[2] # pegando um valor da lista
+#print(numero)
+lista[2] = 300 # Alterar
+del lista[3] # Apagar
+print(lista)
+print(lista[2]) 
