@@ -24,8 +24,15 @@ print(lista[2].upper(), type(lista[2]))
 print(lista)
 
 """
-Create Read Update - Delete
-criar, ler, alterar, apagar = lista[i] (CURD)
+append - Adiciona um item ao final
+    insert - Adiciona um item no índice escolhido
+    pop - Remove do final ou do índice escolhido
+    del - apaga um índice
+    clear - limpa a lista
+    extend - estende a lista
+    + - concatena listas
+    Create Read Update - Delete
+criar, ler, alterar, apagar = lista[i] (CRUD)
 """
 
 lista = [10, 20, 30, 40] # Criar
