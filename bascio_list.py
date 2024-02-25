@@ -67,3 +67,19 @@ del lista[-1]
 #lista.clear()
 lista.insert(0, 5) # local da lista e depois o valor
 print(lista)
+
+#Concatenando com '+'
+
+#lista_a = [1, 2, 3]
+#lista_b = [4, 5, 6]
+#lista_c = lista_a + lista_b
+#print(lista_c)
+
+#Extend
+
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+lista_d = lista_a.extend(lista_b) # extend não retorna nada, retorna o valor no prorpio objeto
+print(lista_d)
+
+print(lista_a) # extend retorna a lista b na a 
