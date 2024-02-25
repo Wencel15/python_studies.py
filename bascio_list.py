@@ -35,3 +35,15 @@ lista[2] = 300 # Alterar
 del lista[3] # Apagar
 print(lista)
 print(lista[2]) 
+
+
+lista.append(50) # Adicionar
+lista.pop() # Remove o ultimo item da lista
+lista.append(60)
+lista.append(70)
+
+print(lista)
+
+ultimo_valor = lista.pop()
+ultimo_valor = lista.pop(2) # excluir um item expecifico 
+print(lista, 'Removido,', ultimo_valor)
