@@ -10,7 +10,7 @@ python -m mod (lib mod como script);
 python -c 'cmd' (comando);
 python -i mod.py (interativo com o mod);
 
-##The Zen of Python, por Tim Peters
+### The Zen of Python, por Tim Peters
 
 Bonito é melhor que feio.
 Explícito é melhor que implícito.
