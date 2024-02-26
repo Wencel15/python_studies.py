@@ -4,11 +4,11 @@ A atualização do repositório sera feito conforme a evolução do aprendizado.
 
 ## Interpretador do Python
 
-python mod.py (executa o mod)
-python -u (unbuffered)
-python -m mod (lib mod como script)
-python -c 'cmd' (comando)
-python -i mod.py (interativo com o mod)
+python mod.py (executa o mod);
+python -u (unbuffered);
+python -m mod (lib mod como script);
+python -c 'cmd' (comando);
+python -i mod.py (interativo com o mod);
 
 ##The Zen of Python, por Tim Peters
 
